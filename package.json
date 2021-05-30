@@ -16,9 +16,14 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.11.4",
+    "autoprefixer": "^10.2.6",
+    "gapi": "^0.0.3",
     "gatsby": "^3.4.1",
+    "gatsby-plugin-postcss": "^4.6.0",
     "gatsby-theme-material-ui": "^2.0.1",
+    "postcss": "^8.2.6",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.1.2"
   }
 }
