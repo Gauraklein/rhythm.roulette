@@ -7,16 +7,16 @@ import randomDates from "../components/date-generator"
 
 const IndexPage = () => {
 
-  // TODO: Externalize api calls and randomizer
+  // TODO: Externalize api calls
 
   const rDates = randomDates()
 
-  const ytUrl = "https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=vinyl&publishedAfter=" + rDates.publishedAfter + "&publishedBefore=" + rDates.publishedBefore + "&type=video&order=date&videoCategoryId=10&maxResults=3&videoEmbeddable=true&videoType=any&key=" + process.env.GATSBY_YT_KEY
+  const ytUrl = "https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=vinyl+LP&publishedAfter=" + rDates.publishedAfter + "&publishedBefore=" + rDates.publishedBefore + "&type=video&order=date&videoCategoryId=10&maxResults=3&videoEmbeddable=true&videoType=any&key=" + process.env.GATSBY_YT_KEY
 
  
   console.log(rDates)
   return (
-    <main className="bg-white h-screen p-4 md:p-8 overflow-y-auto">
+    <main className="bg-black text-white h-screen p-4 md:p-8 overflow-y-auto">
       <h1 className="text-xl text-center m-4 font-bold"> Rhythm Roulette Virtual Edition</h1>
 
       <p className="text-lg text-center m-4"> This project is based on
@@ -26,7 +26,7 @@ const IndexPage = () => {
        <br />
       The basic steps are: 
       <br />
-      1. Generate 3 videos 
+      1. Generate 3 random videos 
       <br />
       2. Make a beat by sampling.
       </p>
