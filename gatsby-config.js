@@ -6,4 +6,3 @@ module.exports = {
             `gatsby-plugin-postcss`]
 };
 
-// TEST
