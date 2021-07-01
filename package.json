@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "rhythm.roulette",
+  "homepage": "https://gauraklein.github.io/rhythm.roulette/",
   "author": "gauraklein",
   "keywords": [
     "gatsby"
@@ -27,9 +28,7 @@
     "react-axios": "^2.0.5",
     "react-dom": "^17.0.1",
     "react-player": "^2.9.0",
-    "tailwindcss": "^2.1.2"
-  },
-  "devDependencies": {
+    "tailwindcss": "^2.1.2",
     "gh-pages": "^3.2.3"
-  }
+  },
 }
