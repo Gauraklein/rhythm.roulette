@@ -4,7 +4,7 @@ The basic concept is to present a user with 3 'records' and have them make a sam
 
 At some point it would be fun to set up a backend and allow for users to share what they've made but just sticking with frontend for now.
 
-Deployed [here](https://rhythm-roulette.netlify.app/) 
+Deployed [here](https://gauraklein.github.io/rhythm.roulette/) 
 
 --- 
 The MVP is complete and this project is usable, things I would like to do moving forward:
